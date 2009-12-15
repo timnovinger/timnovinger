@@ -40,6 +40,7 @@ ActionController::Routing::Routes.draw do |map|
   # consider removing or commenting them out if you're using named routes and resources.
   
   map.root                                                   :controller => "main"
+  map.main                     "/",                          :controller => "main"
   map.portfolio                "/portfolio",                 :controller => "main",      :action => "portfolio"
   #map.connect                 "/sitemap.xml",               :controller => "sitemap",   :action => "index"
   

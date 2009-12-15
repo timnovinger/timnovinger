@@ -733,3 +733,140 @@ Rendered layouts/_quotes (2.4ms)
 Rendered layouts/_header (2.9ms)
 Rendered layouts/_footer (13.8ms)
 Completed in 194ms (View: 175, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:00:44) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (0.8ms)
+Rendered layouts/_header (2.9ms)
+Rendered layouts/_footer (13.5ms)
+Completed in 72ms (View: 52, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-15 03:00:49) [GET]
+
+ActionController::RoutingError (No route matches "/portfolio/maestronance" with {:method=>:get}):
+  passenger (2.2.7) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.7) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:374:in `start_request_handler'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:330:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:00:56) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (0.7ms)
+Rendered layouts/_header (3.4ms)
+Rendered layouts/_footer (19.1ms)
+Completed in 57ms (View: 37, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-15 03:02:30) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/index
+Rendered layouts/_gallery (0.7ms)
+Rendered layouts/_header (3.1ms)
+Rendered layouts/_footer (20.2ms)
+Completed in 57ms (View: 38, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:14:03) [GET]
+Rendering main/portfolio
+Rendered layouts/_quotes (3.6ms)
+Completed in 273ms (View: 253, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:21:46) [GET]
+Rendering main/portfolio
+Rendered layouts/_quotes (10.1ms)
+Completed in 186ms (View: 165, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:22:23) [GET]
+Rendering main/portfolio
+Rendered layouts/_quotes (12.4ms)
+Completed in 148ms (View: 129, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-15 03:22:27) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/index
+Rendered layouts/_gallery (59.0ms)
+Rendered layouts/_header (48.2ms)
+Rendered layouts/_footer (264.1ms)
+Completed in 702ms (View: 684, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:22:30) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (0.7ms)
+Rendered layouts/_header (2.8ms)
+Rendered layouts/_footer (71.0ms)
+Completed in 259ms (View: 196, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:23:45) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (10.7ms)
+Rendered layouts/_header (3.5ms)
+Rendered layouts/_footer (18.2ms)
+Completed in 129ms (View: 83, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:23:55) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (10.7ms)
+Rendered layouts/_header (2.8ms)
+Rendered layouts/_footer (20.0ms)
+Completed in 93ms (View: 73, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:25:11) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (8.7ms)
+Rendered layouts/_header (3.2ms)
+Rendered layouts/_footer (20.4ms)
+Completed in 627ms (View: 583, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:25:15) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (13.4ms)
+Rendered layouts/_header (5.9ms)
+Rendered layouts/_footer (60.1ms)
+Completed in 167ms (View: 95, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 03:25:19) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (2.3ms)
+Rendered layouts/_header (2.8ms)
+Rendered layouts/_footer (16.5ms)
+Completed in 62ms (View: 34, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
