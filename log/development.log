@@ -662,3 +662,74 @@ Rendering main/index
 Rendered layouts/_header (3.9ms)
 Rendered layouts/_footer (29.3ms)
 Completed in 86ms (View: 66, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-15 02:52:22) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/index
+Rendered layouts/_header (2.5ms)
+Rendered layouts/_footer (28.3ms)
+Completed in 95ms (View: 73, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-15 02:53:44) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/index
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (26.9ms)
+Completed in 114ms (View: 95, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-15 02:53:45) [GET]
+
+ActionController::RoutingError (No route matches "/src/images/large_shadow.png" with {:method=>:get}):
+  passenger (2.2.7) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.7) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:374:in `start_request_handler'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:330:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.7) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.7) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-15 02:56:06) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/index
+Rendered layouts/_gallery (8.6ms)
+Rendered layouts/_header (4.2ms)
+Rendered layouts/_footer (16.7ms)
+Completed in 232ms (View: 206, DB: 0) | 200 OK [http://timnovinger.local/]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 02:56:31) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_header (2.9ms)
+Rendered layouts/_footer (16.6ms)
+Completed in 105ms (View: 57, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
+
+
+Processing MainController#portfolio (for 127.0.0.1 at 2009-12-15 02:59:00) [GET]
+Rendering template within layouts/timnovinger
+Rendering main/portfolio
+Rendered layouts/_quotes (2.4ms)
+Rendered layouts/_header (2.9ms)
+Rendered layouts/_footer (13.8ms)
+Completed in 194ms (View: 175, DB: 0) | 200 OK [http://timnovinger.local/portfolio]
