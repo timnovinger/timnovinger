@@ -39,9 +39,9 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
   
-  map.root :controller => "home"
-
-  map.connect ':permalink', :controller => "pages"
+  map.root                                                   :controller => "main"
+  map.portfolio                "/portfolio",                 :controller => "main",      :action => "portfolio"
+  #map.connect                 "/sitemap.xml",               :controller => "sitemap",   :action => "index"
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
