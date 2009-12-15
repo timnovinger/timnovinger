@@ -1,0 +1,25 @@
+<h3>Maestro Robert Nance</h3>
+<?php echo navLinks('rockford_ambulance', 'screaming_monkeys_web_guild'); ?>
+
+<div id="left_col">
+	<p class="img_frame"><img src="images/portfolio/fullsize/maestronance_home.jpg" alt="Maestro Robert Nance Home page" width="600" height="403" /></p>
+	
+	<p class="img_frame"><img src="images/portfolio/fullsize/maestronance_inner.jpg" alt="Maestro Robert Nance Inner page" width="600" height="448" /></p>
+</div>
+
+<div id="right_col">
+	<p>Tim Harvey from <a href="http://www.literacy5.com/">Literacy 5</a> contacted me for some help in slicing up a site design and creating flat HTML files which were to eventually be modified into a theme for a Rails site.</p>
+	
+	<p>For this project, I sliced up the design and turned it into a basic but functional two page website with <a href="http://www.mootools.net/">Mootools</a> based slideshows, before he took it, broke it into a Rails theme and developed the back end functionality.</p>
+	
+	<p><strong>Please note:</strong><br />
+	<small>This work was done for <a href="http://www.literacy5.com/">Literacy 5</a>.</p>
+	
+	<hr class="visible small" />
+	<h4>Services Provided</h4>
+	<ul>
+		<li>HTML5 + CSS</li>
+		<li>Mootools Javascript</li>
+		<li>Design Slicing</li>
+	</ul>
+</div>

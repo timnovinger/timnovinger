@@ -1,0 +1,26 @@
+<h3>Grace College Water Study</h3>
+<?php echo navLinks('screaming_monkeys_web_guild', 'nichols_admin'); ?>
+
+<div id="left_col">
+	<p class="img_frame"><img src="images/portfolio/fullsize/grace_water_quality.jpg" alt="Grace Water Quality Project" /></p>
+	<p><a href="http://water.grace.edu" title="Visit the Project">visit the site</a></p>
+</div>
+
+<div id="right_col">
+	<p>This site ended up being a 34hr "turn and burn" type project. I designed, developed, marked up content, tested and deployed the site in around 34 total hours in order to make our client's deadline.</p>
+	
+	<p>Needless to say it was it exhausting, but it <strong>was</strong> completed on time much to the delight of the client.</p>
+	
+	<p><strong>Please note:</strong><br />
+	<small>This work was done for <a href="http://www.nichols-co.com">The Nichols Company</a>, a previous employer of mine.<br />Also, the client has modified parts of the site and it's not 100% accurate of the original work.</small></p>
+	
+	<hr class="visible small" />
+	
+	<h4>Services Provided</h4>
+	<ul>
+		<li>Web Design</li>
+		<li>XHTML + CSS</li>
+		<li>UI Enhancement via <a href="http://www.mootools.net" title="Read more about the excellent MooTools JavaScript framework">MooTools</a></li>
+		<li>Google Maps Integration</li>
+	</ul>
+</div>

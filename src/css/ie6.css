@@ -1,0 +1,7 @@
+h1, h2, h3, h4, h5, h6 { 
+font-weight : normal; background:none !important; text-indent:0 !important;}
+
+hr{background:none !important; border-bottom:1px solid #999;}
+
+#ie6_warning{background:#900; color:#FFF; position:relative; display:block; z-index:5; top:-30px; left:0; margin:0; height:30px; width:100%;}
+#ie6_warning p{padding:15px 60px 0 60px; font-size:18px; font-weight:bold; letter-spacing:1px; text-align:center; line-height:30px;}

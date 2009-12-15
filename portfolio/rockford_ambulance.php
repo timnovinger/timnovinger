@@ -1,0 +1,32 @@
+<h3>Rockford Ambulance</h3>
+<?php echo navLinks('any_web_dev', 'maestronance'); ?>
+
+<div id="left_col">
+	<p class="img_frame"><img src="images/portfolio/fullsize/rockford_ambulance_home.jpg" alt="Rockford Ambulance Home page" width="600" height="448" /></p>
+	
+	<p class="img_frame"><img src="images/portfolio/fullsize/rockford_ambulance_inner.jpg" alt="Rockford Ambulance Inner page" width="600" height="523" /></p>
+</div>
+
+<div id="right_col">
+	<p>Tim Harvey from <a href="http://www.literacy5.com/">Literacy 5</a> contacted me for some help in theming up a site design for use in a Rails based website and I <small>(almost literally)</small> jumped at the chance. Working with Tim is always a great experience, and I was really excited to finally begin digging into a Rails project.</p>
+	
+	<p>In the end, I sliced up the design and turned it into a basic, functional Rails based website, before he took it and developed the back end functionality, eventually tapping into the Amazon S3 storage cloud.</p>
+	
+	<p>We also made excellent use of <a href="http://www.github.com/">Github</a> between ourselves for source code version control. This allowed us each to work independently without worrying about merging files back together once finished. It handled it for us!</p>
+	
+	<p><strong>Please note:</strong><br />
+		<small>
+			This work was done for <a href="http://www.literacy5.com/">Literacy 5</a>.<br />
+			Website design by <a href="http://www.russetdesign.com/">Russet Design</a>.
+		</small>
+	</p>
+	
+	<hr class="visible small" />
+	<h4>Services Provided</h4>
+	<ul>
+		<li>Ruby on Rails</li>
+		<li>HTML5 + CSS</li>
+		<li>Design Slicing</li>
+		<li>Content Insertion</li>
+	</ul>
+</div>

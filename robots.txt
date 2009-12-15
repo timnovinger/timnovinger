@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/
+Disallow: /src/
+Disallow: /pvt/
+Sitemap: http://www.timnovinger.com/sitemap.xml
