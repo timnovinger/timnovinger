@@ -1,14 +1,14 @@
 # Methods added to this helper will be available to the portfolio templates in the application.
 module PortfolioHelper
 
-    def formatAlt (text)
+    def format_alt (text)
        "#{text}".gsub(/-/, ' ').gsub(/^[a-z]|\s+[a-z]/) { |text| text.upcase }
     end
     
     
-    def navLinks (urlPrev, urlNext)
-      altPrev = formatAlt urlPrev
-      altNext = formatAlt urlNext
+    def nav_links (url_prev, url_next)
+      alt_prev = format_alt url_prev
+      alt_next = format_alt url_next
        
       links = "<ul id=\"portfolio_nav\">
          			      <li>
@@ -18,14 +18,14 @@ module PortfolioHelper
                     </li>
 
                     <li>
-                      <a href=\"/portfolio/"+ urlPrev +"\" title=\""+ altPrev +"\">
-                        <img src=\"/images/icons/bttn_prev.jpg\" alt=\""+ altPrev +"\" width=\"20\" height=\"21\" />
+                      <a href=\"/portfolio/"+ url_prev +"\" title=\""+ alt_prev +"\">
+                        <img src=\"/images/icons/bttn_prev.jpg\" alt=\""+ alt_prev +"\" width=\"20\" height=\"21\" />
                       </a>
                     </li>
 
                     <li>
-                      <a href=\"/portfolio/"+ urlNext +"\" title=\""+ altNext +"\">
-                        <img src=\"/images/icons/bttn_next.jpg\" alt=\""+ altNext +"\" width=\"20\" height=\"21\" />
+                      <a href=\"/portfolio/"+ url_next +"\" title=\""+ alt_next +"\">
+                        <img src=\"/images/icons/bttn_next.jpg\" alt=\""+ alt_next +"\" width=\"20\" height=\"21\" />
                       </a>
                     </li>
                 </ul>"
