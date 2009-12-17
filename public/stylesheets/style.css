@@ -55,8 +55,8 @@ body{
 	/* GENERAL STYLING */ 
 	/* =================================================================================================== */
 	/* base links */	
-	a:link, a:visited{background:none; color:#FFC; text-decoration:underline;}
-	a:hover, a:active{background:#FFC; color:#212121; text-decoration:none; text-shadow:none;}
+	a:link, a:visited{position:relative; background:none; color:#FFC; text-decoration:underline; padding:0; margin:0;}
+	a:hover, a:active{position:relative; background:#FFC; color:#212121; text-decoration:none; text-shadow:none; padding:3px 6px; margin:-3px -6px; z-index:5;}
 	
 	/* text treatments */
 	h1, h2, h3, h4, h5, h6{font-family:"Century Gothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
@@ -90,6 +90,7 @@ body{
 	
 	.grid{position:relative; list-style:none; margin:50px 0 50px 0;}
 	.grid li{float:left; margin:0 0 25px 50px;}
+	.grid li a{margin:0; padding:0;}
 	
 	/* image classes */
 	.imgborder{border:7px solid #FFF;}
@@ -129,10 +130,10 @@ body{
 		#header{position:relative; width:inherit; height:46px; z-index:1;}
 			#header h1{background:url(../../images/titles/h1_title.png) no-repeat; text-indent:-9999px;}
 			
-			#navigation{position:absolute; top:0; right:0; list-style:none; height:20px; color:#FFC; margin-right:-18px;}
+			#navigation{position:absolute; top:5px; right:0; list-style:none; height:20px; color:#FFC; margin-right:-18px;}
 			#navigation li{position:relative; float:left; padding:0; margin:0 15px 0 0;}
-			#navigation a:link, #navigation a:visited{background:none; color:#FFC; text-decoration:none; padding:1px 4px; margin:0;}
-			#navigation a:hover, #navigation a:active{background:#FFC; color:#212121; text-decoration:none; padding:3px 7px; margin:-3px -3px;}	
+			#navigation a:link, #navigation a:visited{background:none; color:#FFC; text-decoration:none; padding:4px 0; margin:0 4px;}
+			#navigation a:hover, #navigation a:active{background:#FFC; color:#212121; text-decoration:none; padding:4px; margin:0;}	
 				
 			
 		#wrapper #content{position:relative; width:inherit; min-height:285px; z-index:1;}
@@ -146,8 +147,8 @@ body{
 				line-height: 45px; 
 				padding: 50px 0;
 				}
-			.headline a:link, .headline a:visited{background:none; color:#FFC; text-decoration:none; border:none;}
-			.headline a:hover, .headline a:active{background:none; color:#FFC; text-decoration:none; border-bottom:2px solid #FFC;}
+			.headline a:link, .headline a:visited{background:none; color:#FFC; text-decoration:none; border:none; padding:2px 0; margin:0 6px;}
+			.headline a:hover, .headline a:active{background:none; color:#FFC; text-decoration:none; border-bottom:2px solid #FFC; padding:2px 0; margin:0 6px;}
 				
 			#myGallery_shadow{position:relative; margin:-34px; top:-15px;}
 			
@@ -178,12 +179,13 @@ body{
 						#recent_work ul{list-style:none;}
 						#recent_work li{position:relative; overflow:visible; margin:0 0 30px 0;}
 						#recent_work li .imgborder{border:6px solid #fff !important;}
+						#recent_work li a{margin:0; padding:0;}
 						#recent_work a:hover{background:none !important;}
 						#recent_work li .icon_zoom{position:absolute; top:-2px; right:-24px; z-index:5;}
 						
 			#portfolio_nav{position:relative; list-style:none; float:right; margin-top:-27px;}
 			#portfolio_nav li{float:left; margin:0 0 0 15px;}
-			#portfolio_nav li a{background:none;}
+			#portfolio_nav li a{background:none; margin:0; padding:0;}
 			
 			#left_col{position:relative; width:610px; height:100%; float:left; margin-top:50px;}
 			#right_col{position:relative; width:250px; float:right; margin-top:50px;}
@@ -227,5 +229,5 @@ body{
 			z-index: 1;
 			}
 			#footer .content{position:relative; width:900px; margin:0 auto;}
-			#footer a:link, #footer a:visited{background:none; color:#FFC; text-decoration:none; padding:2px; margin:0;}
-			#footer a:hover, #footer a:active{background:#FFC; color:#212121; text-decoration:none; padding:4px; margin:-2px;}
+			#footer a:link, #footer a:visited{background:none; color:#FFC; text-decoration:none; padding:1px 0; margin:0 2px; border-bottom:1px solid #FFC;}
+			#footer a:hover, #footer a:active{background:#FFC; color:#212121; text-decoration:none; padding:1px 2px; margin:0;}
