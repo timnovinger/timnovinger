@@ -15,7 +15,7 @@ module ApplicationHelper
       a = controller.action_name.underscore
       
       #change underscores to spaces and capitalize words in string
-      "#{a}".gsub(/_/, ' ')
+      "#{a}".gsub(/_/, '-')
     end
 
 

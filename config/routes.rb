@@ -40,6 +40,6 @@ ActionController::Routing::Routes.draw do |map|
   # consider removing or commenting them out if you're using named routes and resources.
   
   map.root   :controller => "home"
-  map.portfolio   "/portfolio",   :controller => "portfolio",   :action => "index"
+  map.portfolio   "/portfolio",   :controller => "portfolio",   :action => "portfolio"
   map.portfolio ":controller/:action"
 end
