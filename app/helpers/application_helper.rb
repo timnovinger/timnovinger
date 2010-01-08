@@ -20,10 +20,14 @@ module ApplicationHelper
 
 
     def latest_tweet
-      httpauth = Twitter::HTTPAuth.new(ENV['TWITTER_USR'], ENV['TWITTER_PWD'])
-        client = Twitter::Base.new(httpauth)
+      begin
+        httpauth = Twitter::HTTPAuth.new(ENV['TWITTER_USR'], ENV['TWITTER_PWD'])
+          client = Twitter::Base.new(httpauth)
 
-      client.user_timeline.first.text      
+        client.user_timeline.first.text
+      rescue
+        ""
+      end
     end
     
     
