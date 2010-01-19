@@ -150,7 +150,13 @@ body{
 			.headline a:link, .headline a:visited{background:none; color:#FFC; text-decoration:none; border:none; padding:2px 0; margin:0 6px;}
 			.headline a:hover, .headline a:active{background:none; color:#FFC; text-decoration:none; border-bottom:2px solid #FFC; padding:2px 0; margin:0 6px;}
 				
-			#myGallery_shadow{position:relative; margin:-34px; top:-15px;}
+    
+          #slideshow{position:relative; width:888px; height:168px; overflow:hidden; background:#000;}
+            #slideshow img {position:absolute; top:0; left:0; z-index:8; opacity:0;}
+              #slideshow img.active{z-index:10; opacity:1;}
+              #slideshow img.last-active{z-index:9;}
+              
+			#slideshow_shadow{position:relative; margin:-34px; top:-15px;}
 			
 			#about{position:relative; width:inherit; margin:0; padding:0; z-index:1; }
 				#col_wrapper{padding-top:45px;}
