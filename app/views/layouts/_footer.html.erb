@@ -33,8 +33,8 @@
 	<!-- !FOOTER -->	
 	<div id="footer">
 		<div class="content">
-			<span class="floatleft">&copy; Copyright <%= copyright_date %> Tim Novinger. All rights reserved.</span>
-			<span class="floatright">Hosted by <a href="http://www.heroku.com" title="Heroku | Ruby cloud platform as a Service">Heroku</a></span>
+			<span class="floatleft">&copy; Copyright <%= Time.now.year %> Tim Novinger. All rights reserved.</span>
+			<span class="floatright">Monitored by <a href="http://www.amidownhq.com/">Am I Down?</a> and hosted by <a href="http://www.heroku.com" title="Heroku | Ruby cloud platform as a Service">Heroku</a>.</span>
 		</div>
 	</div>
 	
@@ -54,8 +54,7 @@
 		<a class="url" href="aim:goim?screenname=timnovinger">AIM</a>
 	</div>
 	
-	<!-- !Load Javascripts -->
-	<%= javascript_include_tag 'mootools-1.2.1-core-yc.js', 'mootools-1.2-more.js', 'jd.gallery.js', 'application.js' %>
+	<%= javascript_include_tag 'jquery-1.4.min', 'SlideShow' %>
 	
 	<!-- Don't steal my stuff, it's bad karma -->
 </body>

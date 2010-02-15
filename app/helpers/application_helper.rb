@@ -1,13 +1,6 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
-    def copyright_date
-      launch_year   = '2009'
-      current_year  = Time.now.year.to_s
-      
-      launch_year +"-"+ current_year
-    end
-
     def page_title
         a = controller.action_name.underscore
         
