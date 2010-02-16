@@ -7,67 +7,68 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.timnovinger.com/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/</loc>
+  <changefreq>yearly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/rockford_ambulance</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/rockford_ambulance</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/maestronance</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/screaming_monkeys_web_guild</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/screaming_monkeys_web_guild</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/grace_water_study</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.80</priority>
+</url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/grace_water_study</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/maestronance</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/nichols_admin</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/nichols_admin</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/nichols_client_gallery</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/nichols_client_gallery</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/andorfer_commons</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/andorfer_commons</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/westlake_design_comp_one</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/westlake_design_comp_one</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/westlake_design_comp_two</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/westlake_design_comp_two</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/jh_specialty</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/jh_specialty</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.timnovinger.com/portfolio/any_web_dev</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://timnovinger.com/portfolio/any_web_dev</loc>
+  <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 </urlset>
