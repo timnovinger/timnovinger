@@ -20,6 +20,11 @@ class PortfolioController < ApplicationController
     @description = "Portfolio :: Example :: Screaming Monkeys Web Guild" 
   end
   
+  def screaming_monkeys_web_guild_version_2
+    @keywords = "Screaming, Monkeys, Web, Guild, mootools, admin, professional, group, founder, html, css, jquery, theme"
+    @description = "Portfolio :: Example :: Screaming Monkeys Web Guild - Version 2" 
+  end
+  
   def grace_water_study
     @keywords = "grace, college, water, study, program, project, warsaw, indiana, web, site, development, develop, nichols, company"
     @description = "Portfolio :: Example :: Grace College Water Study Project" 
