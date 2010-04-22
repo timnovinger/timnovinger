@@ -1,6 +1,5 @@
 # Methods added to this helper will be available to the portfolio templates in the application.
 module PortfolioHelper
-    
     def format_alt (text)
        "#{text}".gsub(/-/, ' ').gsub(/^[a-z]|\s+[a-z]/) { |text| text.upcase }
     end
@@ -28,6 +27,5 @@ module PortfolioHelper
                       </a>
                     </li>
                 </ul>"
-    end
-    
+    end 
 end
