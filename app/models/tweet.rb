@@ -1,6 +1,6 @@
 class Tweet < ActiveRecord::Base
   def self.latest_text
-    if Tweet.first.nil? || Tweet.first.created_at < 5.minute.ago
+    if Tweet.first.nil? || Tweet.first.created_at < ENV['CACHE_TIMEOUT'].minute.ago
       begin
         httpauth = Twitter::HTTPAuth.new(ENV['TWITTER_USR'], ENV['TWITTER_PWD'])
           client = Twitter::Base.new(httpauth)
