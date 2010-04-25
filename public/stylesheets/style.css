@@ -157,7 +157,7 @@ body{
               #slideshow img.active{z-index:10; opacity:1;}
               #slideshow img.last-active{z-index:9;}
               
-			#slideshow_shadow{position:relative; margin:-34px; top:-15px;}
+			#slideshow_shadow{position:relative; margin:-34px; top:-10px;}
 			
 			#about{position:relative; width:inherit; margin:0; padding:0; z-index:1; }
 				#col_wrapper{padding-top:45px;}
@@ -225,6 +225,7 @@ body{
 			margin: 0;
 			padding: 0;
 			background: #212121 url(../images/charcoal_gradient.jpg) repeat-x top left;
+			border-top: 1px solid #146;
 			width: 100%;
 			padding: 20px 0 30px 0;
 			color: #DDD;

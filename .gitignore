@@ -1,5 +1,3 @@
-public/OLD/
-
 .DS_Store
 log/*.log
 tmp/**/*
