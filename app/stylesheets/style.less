@@ -1,0 +1,230 @@
+/*=================== LESS MIXINS AND VARIABLES ================== */
+@header_fonts:  "Century Gothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+@base_fonts:    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+@code_fonts:    "Lucida sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+@light_yellow:  #FFC;
+@dark_gray:     #212121;
+
+.text_shadow(){
+  text-shadow:"0px 2px 1px #222";
+}
+
+/*======================= CSS STYLE RESET ======================== */
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  text-align: left;
+  vertical-align: baseline;
+}
+a img, :link img, :visited img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol, ul {
+  list-style: none;
+}
+q:before, q:after,
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* =================================================================================================== */
+/* GENERAL SITE CSS */
+/* =================================================================================================== */
+body{
+  background: #036 url(../images/gradient_bg.jpg) top center repeat-x scroll;
+  margin: 30px auto 0 auto;
+  width: 100%;
+  color: @light_yellow;
+  font-size: 15px;
+  font-family: @base_fonts;
+  text-align: center;
+  text-shadow: #014 0 1px 0;
+  z-index: 1;
+  }
+  
+  @font-face {font-family:"Century Gothic"; src:url("http://www.timnovinger.com/src/CenturyGothic.ttf");}
+  
+  ::selection       {background:#CCC; color:#FFF;    /* Safari and Opera */ }
+  ::-moz-selection  {background:@light_yellow; color:@dark_gray; /* Firefox */ }
+  
+  /* =================================================================================================== */
+  /* GENERAL STYLING */ 
+  /* =================================================================================================== */
+  /* base links */  
+  a:link, a:visited {background:none; color:@light_yellow; text-decoration:underline; padding:0; margin:0;}
+  a:hover, a:active {background:@light_yellow; color:@dark_gray; text-decoration:none; text-shadow:none; padding:3px 6px; margin:-3px -6px; z-index:5;}
+  
+  /* text treatments */
+  h1, h2, h3, h4, h5, h6 {font-family:@header_fonts;}
+  h1 {margin:30px 0 10px 0; color:#DDD; font-size:46px; text-transform:uppercase;  font-weight:bold;}
+  h2 {margin:30px 0 10px 0; color:#999; font-size:38px; text-transform:uppercase;  font-weight:bold;}
+  h3 {margin:35px 0 5px 0;  color:@light_yellow; font-size:18px; text-transform:capitalize; font-weight:bold; .text_shadow();}
+  h3 a {text-decoration:none !important;}
+  h4 {margin:35px 0 5px 0; color:#FFF; font-size:15px; text-transform:capitalize; font-weight:bold; .text_shadow();}
+  
+  a img {border:none; outline:none; background:none;}
+  .no_effect {background:none !important;}
+  p {font-size:14px; font-family:@code_fonts; margin:0 0 20px 0; line-height:26px;}
+  q {color:@light_yellow;}
+  sup {position:relative; top:-10px; font-size:11px; font-style:italic;}
+  blockquote {margin:5px 30px; line-height:17px; color:#777; font-weight:bold;}
+  
+  hr {border:none !important; margin:0 0 20px 0; width:100%; height:18px; clear:both;
+    .visible {border:none !important; height:10px; width:100%; margin:5px 0; padding:0;
+      .large {background:0px transparent url('../images/large_divider.png');}
+      .small {background:0px transparent url('../images/mini_divider.png');}
+      .fatty {margin:40px 0 !important;}
+    }
+  }
+  
+  ul {list-style-type:disc;}
+  li {margin:10px 0 10px 35px;}
+  
+  /* basic classes */
+  .clearer {height:0px; padding:0; margin:0;}
+  .floatleft  {position:relative; float:left;  margin:0 15px 15px 0;}
+  .floatright {position:relative; float:right; margin:0 0 10px 30px;}
+  .rtt {position:relative; text-align:right; clear:both;}
+  .vcard {display:none;}  /* hide embedded hcard */
+  
+  .grid {position:relative; list-style:none; margin:50px 0 50px 0;
+    li {float:left; margin:0 0 25px 50px;}
+    li a {margin:0; padding:0;}
+  }
+  
+  /* image classes */
+  .imgborder {border:7px solid #FFF;}
+  .imgshadow {position:relative;}
+    .shadow {position:absolute; bottom:-34px; left:0;}
+    
+  .img_frame {padding:4px 0 7px 0; background:url("../images/img_frame_shadow_full.png") no-repeat center bottom;
+    img {
+      display: block;
+      padding: 6px;
+      background: #fff;
+    }
+    a:hover img   {border-color: #fff;}
+    .frame_small  {background-image: url("../images/img_frame_shadow_220w.png");}
+    .frame_medium {background-image: url("../images/img_frame_shadow_300w.png");}
+  }
+  .icon_zoom {background:none !important;}
+  
+  /* =================================================================================================== */
+  /* LAYOUT STYLING */
+  /* =================================================================================================== */
+  #ie6_warning {display:none;}
+  #wrapper {position:relative; margin:0 auto; width:900px; background:transparent; z-index:1;}
+    
+    #header {position:relative; width:inherit; height:46px; z-index:1;
+      h1 {background:url(../../images/titles/h1_title.png) no-repeat; text-indent:-9999px;}
+    }
+      
+      #navigation {position:absolute; top:5px; right:0; list-style:none; height:20px; color:@light_yellow; margin-right:-18px;
+        li {position:relative; float:left; padding:0; margin:0 15px 0 0;}
+        a:link, a:visited {background:none; color:@light_yellow;    text-decoration:none; padding:4px 0; margin:0 4px;}
+        a:hover, a:active {background:@light_yellow; color:@dark_gray; text-decoration:none; padding:4px;   margin:0;}  
+      }
+      
+    #wrapper #content {position:relative; width:inherit; min-height:285px; z-index:1;}
+      
+      .headline {font-family:@header_fonts; font-size:27px; font-weight:normal; color:#FFF; letter-spacing:0; line-height:45px; padding:50px 0;
+        a {text-decoration:none; background:none; color:@light_yellow;}
+        a:link, a:visited {border:none; padding:2px 0; margin:0 6px;}
+        a:hover, a:active {border-bottom:2px solid @light_yellow; padding:2px 0; margin:0 6px;}
+      }
+      
+        #slideshow {position:relative; width:888px; height:168px; overflow:hidden; background:#000;
+          img {position:absolute; top:0; left:0; z-index:8; opacity:0;}
+          .active {z-index:10; opacity:1;}
+          .last-active {z-index:9;}
+        }
+        
+      #slideshow_shadow {position:relative; margin:-34px; top:-10px;}
+      
+      #about {position:relative; width:inherit; margin:0; padding:0; z-index:1; }
+        #col_wrapper {padding-top:45px;}
+          #about_me {position:relative; width:560px; padding:0; margin:0; float:left; z-index:1;
+            h2 {background:url(../../images/titles/h2_about_me.png) no-repeat; text-indent:-9999px;}
+            hr {background:url(../images/medium_divider.png) no-repeat;}
+          }
+          
+          #recent_work {position:relative; width:230px; padding:0; margin:0; float:right; z-index:1;
+            h2 {background:url(../../images/titles/h2_recent_work.png) no-repeat; text-indent:-9999px;}
+            hr {background:url(../images/mini_divider.png) no-repeat;}
+            
+            ul {list-style:none;
+              li {position:relative; overflow:visible; margin:0 0 30px 0;
+                .imgborder {border:6px solid #fff !important;}
+                .icon_zoom {position:absolute; top:-2px; right:-24px; z-index:5;}
+                a {margin:0; padding:0;}
+              }
+              a:hover {background:none !important;}
+            }
+          }
+                      
+      #portfolio_nav {position:relative; list-style:none; float:right; margin-top:-27px;
+        li {float:left; margin:0 0 0 15px;
+          a {background:none; margin:0; padding:0;}
+        }
+      }
+      
+      #left_col {position:relative; width:610px; height:100%; float:left; margin-top:50px;}
+      #right_col {position:relative; width:250px; float:right; margin-top:50px;
+        p, li {font-size:12px;}
+      }
+      
+        
+    #contact_me {position:relative; width:inherit; clear:both; margin:0; padding:30px 0 30px 0; z-index:1;
+      h2 {background:url(../../images/titles/h2_contact_me.png) no-repeat; text-indent:-9999px;}
+      hr {background:url(../images/large_divider.png) no-repeat;}
+    }
+      
+      #info {position:relative; list-style:none; margin:-25px 0 0 0; padding:0; width:300px;
+        li {height:40px; line-height:30px; width:300px;}
+        .icon {position:relative; margin:0 35px 0 0; padding:0; top:3px;}
+      }
+      
+      #twitter {position:relative; float:right; height:151px; width:417px; padding:0; margin:0;}
+      #twitter_bird {position:absolute; bottom:0; left:0;}
+      #tweet {position:absolute; background:url(../images/twitter_post_bg.jpg) no-repeat; height:171px; width:367px; top:0; right:-12px;
+        li, p {position:absolute; top:15px; left:30px; height:110px; width:310px; overflow:hidden; line-height:25px; color:#DDD;}
+        small {color:#777; font-size:9px; font-style:italic; float:right; position:absolute; bottom:0; right:10px;}
+      }
+      
+    #footer{
+      position: relative;
+      margin: 0;
+      padding: 0;
+      background: @dark_gray url(../images/charcoal_gradient.jpg) repeat-x top left;
+      border-top: 1px solid #146;
+      width: 100%;
+      padding: 20px 0 30px 0;
+      color: #DDD;
+      font-family: @header_fonts;
+      font-size: 12px;
+      font-weight: bold;
+      text-shadow: #000 0px 2px 0px;
+      clear: both;
+      z-index: 1;
+      
+      .content {position:relative; width:900px; margin:0 auto;}
+      a {text-decoration:none;}
+      a:link, a:visited {background:none; color:@light_yellow; padding:1px 0; margin:0 2px; border-bottom:1px solid @light_yellow;}
+      a:hover, a:active {background:@light_yellow; color:@dark_gray; padding:1px 2px; margin:0;}
+    }
