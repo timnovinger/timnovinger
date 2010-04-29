@@ -15,7 +15,7 @@ module ApplicationHelper
     end
     
     def latest_tweet
-      Tweet.latest_text
+      Tweet.latest
     end
     
     def message_with_anchors(message)
