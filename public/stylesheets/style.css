@@ -20,7 +20,7 @@ q:after { content: ""; }
 blockquote:before { content: ""; }
 blockquote:after { content: ""; }
 body {
-  background: #003366 url(../images/gradient_bg.jpg) top center repeat-x scroll;
+  background: #003366 url(/images/gradient_bg.jpg) top center repeat-x scroll;
   margin: 30px auto 0 auto;
   width: 100%;
   color: #ffffcc;
@@ -32,7 +32,7 @@ body {
 }
 @font-face {
   font-family: "Century Gothic";
-  src: url("http://www.timnovinger.com/src/CenturyGothic.ttf");
+  src: url(/CenturyGothic.ttf);
 }
 ::selection {
   background: #cccccc;
@@ -145,8 +145,8 @@ hr .visible {
   margin: 5px 0;
   padding: 0;
 }
-hr .visible .large { background: 0px transparent url('../images/large_divider.png'); }
-hr .visible .small { background: 0px transparent url('../images/mini_divider.png'); }
+hr .visible .large { background: 0px transparent url(/images/large_divider.png); }
+hr .visible .small { background: 0px transparent url(/images/mini_divider.png); }
 hr .visible .fatty { margin: 40px 0 !important; }
 ul { list-style-type: disc; }
 li { margin: 10px 0 10px 35px; }
@@ -193,7 +193,7 @@ li { margin: 10px 0 10px 35px; }
 }
 .img_frame {
   padding: 4px 0 7px 0;
-  background: url("../images/img_frame_shadow_full.png") no-repeat center bottom;
+  background: url(/images/img_frame_shadow_full.png) no-repeat center bottom;
 }
 .img_frame img {
   display: block;
@@ -201,8 +201,8 @@ li { margin: 10px 0 10px 35px; }
   background: #ffffff;
 }
 .img_frame a:hover img { border-color: #ffffff; }
-.img_frame .frame_small { background-image: url("../images/img_frame_shadow_220w.png"); }
-.img_frame .frame_medium { background-image: url("../images/img_frame_shadow_300w.png"); }
+.img_frame .frame_small { background-image: url(/images/img_frame_shadow_220w.png); }
+.img_frame .frame_medium { background-image: url(/images/img_frame_shadow_300w.png); }
 .icon_zoom { background: none !important; }
 #ie6_warning { display: none; }
 #wrapper {
@@ -219,7 +219,7 @@ li { margin: 10px 0 10px 35px; }
   z-index: 1;
 }
 #header h1 {
-  background: url(../../images/titles/h1_title.png) no-repeat;
+  background: url(/images/titles/h1_title.png) no-repeat;
   text-indent: -9999px;
 }
 #navigation {
@@ -346,10 +346,10 @@ li { margin: 10px 0 10px 35px; }
   z-index: 1;
 }
 #about_me h2 {
-  background: url(../../images/titles/h2_about_me.png) no-repeat;
+  background: url(/images/titles/h2_about_me.png) no-repeat;
   text-indent: -9999px;
 }
-#about_me hr { background: url(../images/medium_divider.png) no-repeat; }
+#about_me hr { background: url(/images/medium_divider.png) no-repeat; }
 #recent_work {
   position: relative;
   width: 230px;
@@ -359,10 +359,10 @@ li { margin: 10px 0 10px 35px; }
   z-index: 1;
 }
 #recent_work h2 {
-  background: url(../../images/titles/h2_recent_work.png) no-repeat;
+  background: url(/images/titles/h2_recent_work.png) no-repeat;
   text-indent: -9999px;
 }
-#recent_work hr { background: url(../images/mini_divider.png) no-repeat; }
+#recent_work hr { background: url(/images/mini_divider.png) no-repeat; }
 #recent_work ul { list-style: none; }
 #recent_work ul li {
   position: relative;
@@ -420,10 +420,10 @@ li { margin: 10px 0 10px 35px; }
   z-index: 1;
 }
 #contact_me h2 {
-  background: url(../../images/titles/h2_contact_me.png) no-repeat;
+  background: url(/images/titles/h2_contact_me.png) no-repeat;
   text-indent: -9999px;
 }
-#contact_me hr { background: url(../images/large_divider.png) no-repeat; }
+#contact_me hr { background: url(/images/large_divider.png) no-repeat; }
 #info {
   position: relative;
   list-style: none;
@@ -457,7 +457,7 @@ li { margin: 10px 0 10px 35px; }
 }
 #tweet {
   position: absolute;
-  background: url(../images/twitter_post_bg.jpg) no-repeat;
+  background: url(/images/twitter_post_bg.jpg) no-repeat;
   height: 171px;
   width: 367px;
   top: 0;
@@ -496,7 +496,7 @@ li { margin: 10px 0 10px 35px; }
   position: relative;
   margin: 0;
   padding: 0;
-  background: #212121 url(../images/charcoal_gradient.jpg) repeat-x top left;
+  background: #212121 url(/images/charcoal_gradient.jpg) repeat-x top left;
   border-top: 1px solid #114466;
   width: 100%;
   padding: 20px 0 30px 0;
