@@ -1,0 +1,64 @@
+<div class="block">
+  <div class="secondary-navigation">
+    <ul class="wat-cf">
+      <li class="first"><%= link_to "#{t("web-app-theme.list", :default => "List")}", admin_sites_path  %></li>
+      <li><%= link_to "#{t("web-app-theme.new", :default => "New")}", new_admin_site_path %></li>
+      <li class="active"><%= link_to "#{t("web-app-theme.show", :default => "Show")}", admin_site_path %></li>
+    </ul>
+  </div>          
+  <div class="content">
+    <div class="inner">
+      
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.title", :default => t("activerecord.labels.title", :default => "Title")) %>:</b>
+          <%= @site.title %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.body", :default => t("activerecord.labels.body", :default => "Body")) %>:</b>
+          <%= @site.body %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.position", :default => t("activerecord.labels.position", :default => "Position")) %>:</b>
+          <%= @site.position %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.site_url", :default => t("activerecord.labels.site_url", :default => "Site url")) %>:</b>
+          <%= @site.site_url %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.twitter_url", :default => t("activerecord.labels.twitter_url", :default => "Twitter url")) %>:</b>
+          <%= @site.twitter_url %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.assets_html", :default => t("activerecord.labels.assets_html", :default => "Assets html")) %>:</b>
+          <%= @site.assets_html %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.seo_keywords", :default => t("activerecord.labels.seo_keywords", :default => "Seo keywords")) %>:</b>
+          <%= @site.seo_keywords %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.seo_description", :default => t("activerecord.labels.seo_description", :default => "Seo description")) %>:</b>
+          <%= @site.seo_description %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.admin_site.publish_on", :default => t("activerecord.labels.publish_on", :default => "Publish on")) %>:</b>
+          <%= @site.publish_on %>
+        </p>
+      <div class="wat-cf">
+        <%= link_to "#{image_tag("web-app-theme/application_edit.png", :alt => "#{t("web-app-theme.edit", :default=> "Edit")}")} #{t("web-app-theme.edit", :default=> "Edit")}", edit_admin_site_path(@site), :class => "button" %> 
+        <%= link_to "#{image_tag("web-app-theme/cross.png", :alt => "#{t("web-app-theme.delete", :default=> "Delete")}")} #{t("web-app-theme.delete", :default => "Delete")}", admin_site_path(@site), :method => "delete", :class => "button", :confirm => "#{t("web-app-theme.confirm", :default => "Are you sure?")}" %>
+      </div>      
+    </div>
+  </div>
+</div>
+
+<% content_for :sidebar, render(:partial => 'sidebar') -%>

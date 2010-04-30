@@ -1,0 +1,61 @@
+
+  <div class="group">
+    <%= f.label :title, t("activerecord.attributes.site.title", :default => "Title"), :class => :label %>
+    <%= f.text_field :title, :class => 'text_field' %>
+    <span class="description"><%= error_message_on @site, :title %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :body, t("activerecord.attributes.site.body", :default => "Body"), :class => :label %>
+    <%= f.text_area :body, :class => 'text_area' %>
+    <span class="description"><%= error_message_on @site, :body %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :position, t("activerecord.attributes.site.position", :default => "Position"), :class => :label %>
+    <%= f.text_field :position, :class => 'text_field' %>
+    <span class="description"><%= error_message_on @site, :position %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :site_url, t("activerecord.attributes.site.site_url", :default => "Site url"), :class => :label %>
+    <%= f.text_field :site_url, :class => 'text_field' %>
+    <span class="description"><%= error_message_on @site, :site_url %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :twitter_url, t("activerecord.attributes.site.twitter_url", :default => "Twitter url"), :class => :label %>
+    <%= f.text_field :twitter_url, :class => 'text_field' %>
+    <span class="description"><%= error_message_on @site, :twitter_url %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :assets_html, t("activerecord.attributes.site.assets_html", :default => "Assets html"), :class => :label %>
+    <%= f.text_area :assets_html, :class => 'text_area' %>
+    <span class="description"><%= error_message_on @site, :assets_html %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :seo_keywords, t("activerecord.attributes.site.seo_keywords", :default => "Seo keywords"), :class => :label %>
+    <%= f.text_area :seo_keywords, :class => 'text_area' %>
+    <span class="description"><%= error_message_on @site, :seo_keywords %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :seo_description, t("activerecord.attributes.site.seo_description", :default => "Seo description"), :class => :label %>
+    <%= f.text_area :seo_description, :class => 'text_area' %>
+    <span class="description"><%= error_message_on @site, :seo_description %></span>
+  </div>
+
+  <div class="group">
+    <%= f.label :publish_on, t("activerecord.attributes.site.publish_on", :default => "Publish on"), :class => :label %>
+    <%= f.date_select :publish_on, :class => 'date_select' %>
+    <span class="description"><%= error_message_on @site, :publish_on %></span>
+  </div>
+        
+<div class="group navform wat-cf">
+  <button class="button" type="submit">
+    <%= image_tag("web-app-theme/tick.png", :alt => "#{t("web-app-theme.save", :default => "Save")}") %> <%= t("web-app-theme.save", :default => "Save") %>
+  </button>  
+  <%= link_to "#{image_tag("web-app-theme/cross.png", :alt => "#{t("web-app-theme.cancel", :default => "Cancel")}")} #{t("web-app-theme.cancel", :default => "Cancel")}", admin_sites_path, :class => "button" %> 
+</div>
