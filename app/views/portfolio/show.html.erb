@@ -1,0 +1,19 @@
+<h3><%= @site.title %></h3>
+<%#= nav_links('any_web_dev', 'rockford_ambulance') %>
+
+<div id="left_col">
+  <p class="img_frame">
+    <%= @site.assets_html %>
+  </p>
+  <p>
+    <a href="<%= @site.site_url %>" title="<%= @site.title %>">visit the site</a>
+    
+    <% unless @site.twitter_url.nil? %>
+    <span class="floatright">follow <a href="http://www.twitter.com/<%= @site.twitter_url %>" title="<%= @site.title %>">@<%= @site.twitter_url %></a></span>
+    <% end %>
+  </p>
+</div>
+
+<div id="right_col">
+  <%= @site.body %>
+</div>
