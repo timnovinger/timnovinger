@@ -6,10 +6,12 @@
     <%= @site.assets_html %>
   </p>
   <p>
-    <a href="<%= @site.site_url %>" title="<%= @site.title %>">visit the site</a>
-    
+    <% unless @site.site_url.nil? %>
+      <a href="<%= @site.site_url %>" title="<%= @site.title %>">visit the site</a>
+    <% end %>
+        
     <% unless @site.twitter_url.nil? %>
-    <span class="floatright">follow <a href="http://www.twitter.com/<%= @site.twitter_url %>" title="<%= @site.title %>">@<%= @site.twitter_url %></a></span>
+      <span class="floatright">follow <a href="http://www.twitter.com/<%= @site.twitter_url %>" title="<%= @site.title %>">@<%= @site.twitter_url %></a></span>
     <% end %>
   </p>
 </div>

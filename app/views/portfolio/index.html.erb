@@ -1,12 +1,11 @@
 <div id="content">
-  
   <p class="headline"><%= render :partial => 'layouts/quotes' %></p>
         
   <hr class="visible large" />
   
   <ul class="grid">
     <% @sites.each do |site| %>
-      <li><a href="/portfolio/<%= site.title %>"><%= site.title %></a></li>
+      <li><a href="/portfolio/<%= site.slug %>"><%= site.title %></a></li>
     <% end %>
     <li class="img_frame frame_small">
       <a href="/portfolio/screaming_monkeys_web_guild_version_2" title="The Screaming Monkeys Web Guild">

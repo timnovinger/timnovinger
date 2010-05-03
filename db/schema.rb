@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100430162825) do
+ActiveRecord::Schema.define(:version => 20100503135635) do
 
   create_table "sites", :force => true do |t|
     t.string   "title"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(:version => 20100430162825) do
     t.date     "publish_on"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "slug"
+    t.text     "thumbnail_url"
   end
 
   create_table "tweets", :force => true do |t|

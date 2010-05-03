@@ -4,6 +4,24 @@
     <%= f.text_field :title, :class => 'text_field' %>
     <span class="description">Ex: a simple text</span>
   </div>
+  
+  <div class="group">
+    <%= f.label :slug, t("activerecord.attributes.site.slug", :default => "Slug"), :class => :label %>
+    <%= f.text_field :slug, :class => 'text_field' %>
+    <span class="description">Ex: a simple text</span>
+  </div>
+
+  <div class="group">
+    <%= f.label :position, t("activerecord.attributes.site.position", :default => "Position"), :class => :label %>
+    <%= f.text_field :position, :class => 'text_field' %>
+    <span class="description">Ex: a simple text</span>
+  </div>
+
+  <div class="group">
+    <%= f.label :thumbnail_url, t("activerecord.attributes.site.thumbnail_url", :default => "Thumbnail URL"), :class => :label %>
+    <%= f.text_area :thumbnail_url, :class => 'text_area', :rows => 3 %>
+    <span class="description">Ex: a simple text</span>
+  </div>
 
   <div class="group">
     <%= f.label :body, t("activerecord.attributes.site.body", :default => "Body"), :class => :label %>
@@ -12,8 +30,8 @@
   </div>
 
   <div class="group">
-    <%= f.label :position, t("activerecord.attributes.site.position", :default => "Position"), :class => :label %>
-    <%= f.text_field :position, :class => 'text_field' %>
+    <%= f.label :assets_html, t("activerecord.attributes.site.assets_html", :default => "Assets HTML"), :class => :label %>
+    <%= f.text_area :assets_html, :class => 'text_area', :rows => 8 %>
     <span class="description">Ex: a simple text</span>
   </div>
 
@@ -30,20 +48,14 @@
   </div>
 
   <div class="group">
-    <%= f.label :assets_html, t("activerecord.attributes.site.assets_html", :default => "Assets html"), :class => :label %>
-    <%= f.text_area :assets_html, :class => 'text_area' %>
-    <span class="description">Ex: a simple text</span>
-  </div>
-
-  <div class="group">
     <%= f.label :seo_keywords, t("activerecord.attributes.site.seo_keywords", :default => "Seo keywords"), :class => :label %>
-    <%= f.text_area :seo_keywords, :class => 'text_area' %>
+    <%= f.text_area :seo_keywords, :class => 'text_area', :rows => 3 %>
     <span class="description">Ex: a simple text</span>
   </div>
 
   <div class="group">
     <%= f.label :seo_description, t("activerecord.attributes.site.seo_description", :default => "Seo description"), :class => :label %>
-    <%= f.text_area :seo_description, :class => 'text_area' %>
+    <%= f.text_area :seo_description, :class => 'text_area', :rows => 3 %>
     <span class="description">Ex: a simple text</span>
   </div>
 
