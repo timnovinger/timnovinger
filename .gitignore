@@ -1,7 +1,7 @@
-.DS_Store
-log/*.log
-tmp/**/*
-db/development.sqlite3
-config/database.yml
-config/database-mysql.yml
-public/cache/**/*
+database.yml
+tmp/
+log/*
+db/*.sqlite3*
+*.tmproj
+*.DS_Store
+
