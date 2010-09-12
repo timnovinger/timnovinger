@@ -1,8 +1,11 @@
 class Tweet < ActiveRecord::Base    
   def self.fetch_new
-    # attempt to connect and authenticate to Twitter
-    httpauth = Twitter::HTTPAuth.new(ENV['TWITTER_USR'], ENV['TWITTER_PWD'])
-    client   = Twitter::Base.new(httpauth)  
+    # Instantiate OAUTH consumer
+    oauth = Twitter::OAuth.new(ENV['OAUTH_CONSUMER_TOKEN'], ENV['OAUTH_CONSUMER_SECRET'])
+    oauth.authorize_from_access(ENV['OAUTH_ACCESS_TOKEN'], ENV['OAUTH_ACCESS_SECRET'])
+    
+    # Connect to Twitter using OAUTH consumer
+    client = Twitter::Base.new(oauth)
     
     # fetch a new tweet, cache it to the database, and then return it
     Tweet.create :text => client.user_timeline.first.text
