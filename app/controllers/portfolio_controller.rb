@@ -1,4 +1,6 @@
 class PortfolioController < ApplicationController
+  layout "public"
+  
   def portfolio
     @keywords = "portfolio, work samples, consulting, samples, examples, Tim Novinger, graphic design, graphic, design, freelance, fort wayne, indiana, development, mootools, twitter, mootools, jquery, iphone, ruby, rails, ruby on rails, RoR, screaming monkeys web guild, javascript, php, mysql, developer, advertising, web, print"
     @description = "The portfolio of Tim Novinger. View samples of my web development work."
