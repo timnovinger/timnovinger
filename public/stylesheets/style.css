@@ -203,7 +203,6 @@ li { margin: 10px 0 10px 35px; }
 .img_frame .frame_small { background-image: url(/images/img_frame_shadow_220w.png); }
 .img_frame .frame_medium { background-image: url(/images/img_frame_shadow_300w.png); }
 .icon_zoom { background: none !important; }
-#ie6_warning { display: none; }
 #wrapper {
   margin: 0 auto;
   width: 900px;
