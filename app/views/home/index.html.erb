@@ -5,13 +5,13 @@
   <div id="slideshow" class="imgborder">
     <%= render :partial => 'layouts/slides' %>
   </div>
-  <img src="images/large_shadow.png" alt="" id="slideshow_shadow" />
+  <%= image_tag 'large_shadow.png', :alt => '', :id => 'slideshow_shadow' %>
   
   <div id="col_wrapper">
     <div id="about_me">
       <h2>About Me</h2>
       <hr />
-      <p><span class="img_frame frame_small floatright"><img src="images/timnovinger_b&amp;w.jpg" alt="Tim Novinger" width="132" height="150" /></span>
+      <p><span class="img_frame frame_small floatright"><%= image_tag 'timnovinger_b&w.jpg', :alt => 'Tim Novinger' %></span>
         I'm a developer located in Fort Wayne, Indiana with experience in web development and design, and interests in iOS development.</p>
       
         <p>Additionally I'm a co-founder of the <a href="http://www.screamingmonkeys.org/" title="Check out the Web Guild I helped create">Screaming Monkeys Web Guild</a>, a local web development professional group, whose goal is to foster business networking, learning and creativity.</p>
@@ -49,22 +49,22 @@
       <ul>
         <li class="img_frame frame_small">
           <a href="portfolio/screaming_monkeys_web_guild_version_2" title="The Screaming Monkeys Web Guild">
-            <img src="images/portfolio/thumbnails/screaming_monkeys_version_2.jpg" alt="The Screaming Monkeys Web Guild" width="220" height="180" />
+            <%= image_tag 'portfolio/thumbnails/screaming_monkeys_version_2.jpg', :alt => 'The Screaming Monkeys Web Guild' %>
           </a>
         </li>
         <li class="img_frame frame_small">
           <a href="portfolio/rockford_ambulance" title="Rockford Ambulance">
-            <img src="images/portfolio/thumbnails/rockford_ambulance_home.jpg" alt="Rockford Ambulance" width="220" height="180" />
+          <%= image_tag 'portfolio/thumbnails/rockford_ambulance_home.jpg', :alt => 'Rockford Ambulance' %>
           </a>
         </li>
         <li class="img_frame frame_small">
           <a href="portfolio/screaming_monkeys_web_guild" title="The Screaming Monkeys Web Guild">
-            <img src="images/portfolio/thumbnails/smwg.jpg" alt="The Screaming Monkeys Web Guild" width="220" height="180" />
+            <%= image_tag 'portfolio/thumbnails/smwg.jpg', :alt => 'The Screaming Monkeys Web Guild' %>
           </a>
         </li>
         <li class="img_frame frame_small">
           <a href="portfolio/grace_water_study" title="Grace College Water Quality Project">
-            <img src="images/portfolio/thumbnails/grace.jpg" alt="Grace College Water Quality Project" width="220" height="180" />
+            <%= image_tag 'portfolio/thumbnails/grace.jpg', :alt => 'Grace College Water Quality Project' %>
           </a>
         </li>
       </ul>
