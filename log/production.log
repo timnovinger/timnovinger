@@ -1,0 +1,930 @@
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:27:05 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (28.2ms)
+Rendered home/index.html.erb within layouts/public (45.7ms)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (21ms)  (pid 24647)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (0ms)  (pid 24647)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (18ms)  (pid 24647)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (0ms)  (pid 24647)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24647)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24647)
+Rendered layouts/_google_analytics.html.erb (0.6ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-87d5532d3dbb757a8d04f721218dd5cb.js" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /application-87d5532d3dbb757a8d04f721218dd5cb.js - 200 OK  (48ms)  (pid 24647)
+
+
+Started GET "/assets/application-6a8ba475b9b689218e5ef13dd94f72d5.css" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /application-6a8ba475b9b689218e5ef13dd94f72d5.css - 200 OK  (2ms)  (pid 24647)
+
+
+Started GET "/assets/slides/DSCF0950-e2e451fee173acb09a8d0c27e15acfbc.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /slides/DSCF0950-e2e451fee173acb09a8d0c27e15acfbc.jpg - 200 OK  (60ms)  (pid 24647)
+
+
+Started GET "/assets/slides/FH000013-5ef87de0839fd54e8fc2707bc103132f.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /slides/FH000013-5ef87de0839fd54e8fc2707bc103132f.jpg - 200 OK  (80ms)  (pid 24647)
+
+
+Started GET "/assets/slides/xserve-10e09f6e86b6bc6e9e30638242fe8fb3.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /slides/xserve-10e09f6e86b6bc6e9e30638242fe8fb3.jpg - 200 OK  (39ms)  (pid 24647)
+
+
+Started GET "/assets/slides/DSCN0454-ee8a19735bccf1a96e645b5f1297551a.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /slides/DSCN0454-ee8a19735bccf1a96e645b5f1297551a.jpg - 200 OK  (57ms)  (pid 24647)
+
+
+Started GET "/assets/slides/nikon_fg-5c922e8da0ecb762cc63e33ae25c9eef.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /slides/nikon_fg-5c922e8da0ecb762cc63e33ae25c9eef.jpg - 200 OK  (94ms)  (pid 24647)
+
+
+Started GET "/assets/large_shadow-37bad5829f8593993527927d98c3f1f2.png" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /large_shadow-37bad5829f8593993527927d98c3f1f2.png - 200 OK  (63ms)  (pid 24647)
+
+
+Started GET "/assets/timnovinger_b&w-a88bca066d1588e7e0b5fdb93fe5b216.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /timnovinger_b&w-a88bca066d1588e7e0b5fdb93fe5b216.jpg - 200 OK  (13ms)  (pid 24647)
+
+
+Started GET "/assets/portfolio/thumbnails/screaming_monkeys_version_2-e2a1187885d4a2c01fd0e3ce4a18686b.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /portfolio/thumbnails/screaming_monkeys_version_2-e2a1187885d4a2c01fd0e3ce4a18686b.jpg - 200 OK  (77ms)  (pid 24647)
+
+
+Started GET "/assets/portfolio/thumbnails/rockford_ambulance_home-07ef07f4c1ac5a616c3109fcfda87a42.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /portfolio/thumbnails/rockford_ambulance_home-07ef07f4c1ac5a616c3109fcfda87a42.jpg - 200 OK  (19ms)  (pid 24647)
+
+
+Started GET "/assets/portfolio/thumbnails/smwg-30c9025e99d6f6686f02307fc808b343.jpg" for 127.0.0.1 at Sat Jun 04 02:27:06 -0400 2011
+Served asset /portfolio/thumbnails/smwg-30c9025e99d6f6686f02307fc808b343.jpg - 200 OK  (26ms)  (pid 24647)
+
+
+Started GET "/assets/portfolio/thumbnails/grace-fb6b3ace72bea52521b7b3c31a44dd8b.jpg" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /portfolio/thumbnails/grace-fb6b3ace72bea52521b7b3c31a44dd8b.jpg - 200 OK  (49ms)  (pid 24647)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /tweetie_bird.jpg - 200 OK  (0ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /icons/icon_email.gif - 200 OK  (4ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /icons/icon_phone.gif - 200 OK  (1ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /icons/icon_twitter.gif - 200 OK  (0ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:27:07 -0400 2011
+Served asset /icons/icon_tshirt.gif - 200 OK  (0ms)  (pid 24647)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:27:08 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (2.2ms)
+Rendered home/index.html.erb within layouts/public (4.5ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:27:09 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:27:09 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (2ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:27:09 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (1ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:27:09 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (1ms)  (pid 24647)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:27:09 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24647)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:27:14 -0400 2011
+Served asset /gradient_bg.jpg - 200 OK  (1ms)  (pid 24647)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:29:04 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (27.7ms)
+Rendered home/index.html.erb within layouts/public (54.5ms)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (25ms)  (pid 24666)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (0ms)  (pid 24666)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (18ms)  (pid 24666)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (0ms)  (pid 24666)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24666)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24666)
+Rendered layouts/_google_analytics.html.erb (0.4ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (1ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (1ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:29:05 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:29:10 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:29:47 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (148.0ms)
+Rendered home/index.html.erb within layouts/public (478.2ms)
+Rendered layouts/_google_analytics.html.erb (29.6ms)
+Completed 200 OK in 584ms (Views: 583.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (22ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (1ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (1ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:29:49 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.8ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:29:54 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (24ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:31:26 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (13.5ms)
+Rendered home/index.html.erb within layouts/public (16.1ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:31:26 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:31:26 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:31:27 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:31:27 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:31:27 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:31:27 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:31:31 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (1.8ms)
+Rendered home/index.html.erb within layouts/public (4.9ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (5ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:31:46 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:31:51 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:32:34 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (134.3ms)
+Rendered home/index.html.erb within layouts/public (148.5ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 227ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:32:35 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (24ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:32:35 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:32:35 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:32:36 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:32:36 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:32:36 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:32:40 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:33:01 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (13.1ms)
+Rendered home/index.html.erb within layouts/public (15.5ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (17ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:33:02 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:33:07 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:38:17 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (43.1ms)
+Rendered home/index.html.erb within layouts/public (73.5ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 175ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:38:19 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.9ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:38:24 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24666)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:39:10 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (25.4ms)
+Rendered home/index.html.erb within layouts/public (51.9ms)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (21ms)  (pid 24720)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie6.css  (0ms)  (pid 24720)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (18ms)  (pid 24720)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie7.css  (0ms)  (pid 24720)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24720)
+Compiled ~/Code/timnovinger/app/assets/stylesheets/ie8.css  (0ms)  (pid 24720)
+Rendered layouts/_google_analytics.html.erb (0.4ms)
+Completed 200 OK in 156ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (4ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (1ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (2ms)  (pid 24720)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:39:11 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:39:16 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (1ms)  (pid 24720)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (1.8ms)
+Rendered home/index.html.erb within layouts/public (4.0ms)
+Rendered layouts/_google_analytics.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:39:34 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:39:35 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:39:40 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (1ms)  (pid 24720)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 02:41:12 -0400 2011
+  Processing by HomeController#index as HTML
+Rendered layouts/_slides.html.erb (28.2ms)
+Rendered home/index.html.erb within layouts/public (66.6ms)
+Rendered layouts/_google_analytics.html.erb (0.3ms)
+Completed 200 OK in 188ms (Views: 185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweetie_bird.jpg" for 127.0.0.1 at Sat Jun 04 02:41:13 -0400 2011
+Served asset /tweetie_bird.jpg - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_twitter.gif" for 127.0.0.1 at Sat Jun 04 02:41:14 -0400 2011
+Served asset /icons/icon_twitter.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_phone.gif" for 127.0.0.1 at Sat Jun 04 02:41:14 -0400 2011
+Served asset /icons/icon_phone.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_email.gif" for 127.0.0.1 at Sat Jun 04 02:41:14 -0400 2011
+Served asset /icons/icon_email.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/assets/icons/icon_tshirt.gif" for 127.0.0.1 at Sat Jun 04 02:41:14 -0400 2011
+Served asset /icons/icon_tshirt.gif - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:41:14 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (66.7ms)
+
+
+Started GET "/assets/gradient_bg.jpg" for 127.0.0.1 at Sat Jun 04 02:41:18 -0400 2011
+Served asset /gradient_bg.jpg - 304 Not Modified  (0ms)  (pid 24720)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:41:26 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Jun 04 02:41:27 -0400 2011
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:53:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/logger.rb:13:in `call'
+  rack (1.3.0) lib/rack/methodoverride.rb:24:in `call'
+  rack (1.3.0) lib/rack/runtime.rb:17:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/activesupport/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.3.0) lib/rack/lock.rb:34:in `call'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:132:in `forward'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:243:in `fetch'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:181:in `lookup'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:65:in `call!'
+  rack-cache (1.0.2) lib/rack/cache/context.rb:50:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/engine.rb:438:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/content_length.rb:16:in `call'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.3.0) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/tnovinger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.3.0) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.3.0) lib/rack/server.rb:265:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands/server.rb:70:in `start'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:58
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53:in `tap'
+  /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/railties/lib/rails/commands.rb:53
+  script/rails:6:in `require'
+  script/rails:6
+
+Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.1ms)

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-  <title><%= page_title %> Tim Novinger :: Web Developer :: Fort Wayne, Indiana</title>
+  <title><%= page_title %> Tim Novinger :: Developer :: Fort Wayne, Indiana</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="verify-v1" content="zli2EVCVhfgjqu/IP2f39Pw5ofLztr1slvc+ZBcy1RA=" />
   <meta name="distribution" content="global" />
@@ -14,16 +14,15 @@
   <meta name="copyright" content="&#169; <%= Time.now.year %> Tim Novinger - http://www.timnovinger.com" />
   <meta name="keywords" content="<%= @keywords %>" />
   <meta name="description" content="<%= @description %>" />
-  
-  <%= stylesheet_link_tag 'style' %>
-  
-  <!--[if IE 6]><%= stylesheet_link_tag 'css/ie6' %><![endif]-->
-  <!--[if IE 7]><%= stylesheet_link_tag 'css/ie7' %><![endif]-->
-  <!--[if IE 8]><%= stylesheet_link_tag 'css/ie8' %><![endif]-->
-  
-  <%= render :partial => '/layouts/google_analytics' if 'production' == RAILS_ENV rescue nil %>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag 'application' %>
+
+  <!--[if IE 6]><%= stylesheet_link_tag 'ie6' %><![endif]-->
+  <!--[if IE 7]><%= stylesheet_link_tag 'ie7' %><![endif]-->
+
+  <%= render :partial => '/layouts/google_analytics' if Rails.env.production? -%>
 </head>
-  
 <body id="<%= bodytag_id %>">
   <div id="wrapper">
     <div id="header">
@@ -43,58 +42,54 @@
     <div id="contact_me">
       <h2>Contact Me</h2>
       <hr />
-      <div id="twitter">
-        <img src="/images/tweetie_bird.jpg" alt="Twitter" width="49" height="49" id="twitter_bird" />
-        <div id="tweet">
-          <p><%= message_with_anchors latest_tweet %></p>
-        </div>
-      </div>
-      
-      <ul id="info">
+      <ul id="info_left" class="info">
         <li>
-          <img src="/images/icons/icon_email.gif" alt="Email" width="28" height="26" class="icon" />
+          <%= image_tag 'icons/icon_email.gif', :alt => 'Email', :class => 'icon' %>
           <a href="mailto:tim.novinger@gmail.com" title="Send an e-mail">tim.novinger@gmail.com</a>
         </li>
         <li>
-          <img src="/images/icons/icon_phone.gif" alt="Phone" width="27" height="26" class="icon" />
+          <%= image_tag 'icons/icon_phone.gif', :alt => 'Phone', :class => 'icon' %>
           +1 (260) 918-4937
         </li>
+      </ul>
+
+      <ul id="info_right" class="info">
         <li>
-          <img src="/images/icons/icon_twitter.gif" alt="Twitter" width="28" height="26" class="icon" />
+          <%= image_tag 'icons/icon_twitter.gif', :alt => 'Twitter', :class => 'icon' %>
           <a href="http://www.twitter.com/timnovinger" title="Follow Me!">follow me on twitter</a>
         </li>
         <li>
-          <img src="/images/icons/icon_tshirt.gif" alt="Twitshirt" width="27" height="26" class="icon" />
+          <%= image_tag 'icons/icon_tshirt.gif', :alt => 'Twitshirt', :class => 'icon' %>
           <a href="http://twitshirt.com/timnovinger" title="Did I just say something funny on Twitter? Make it into a T-Shirt!">purchase a twitshirt</a>
         </li>
       </ul>
     </div>
-  </div>  
-  
+  </div>
+
   <div id="footer">
     <div class="content">
       <span class="floatleft">&copy; Copyright <%= Time.now.year %> Tim Novinger. All rights reserved.</span>
       <span class="floatright">Hosted by <a href="http://www.heroku.com" title="Heroku | Ruby cloud platform as a Service">Heroku</a></span>
     </div>
   </div>
-  
+
   <div id="vcard-Tim-Novinger" class="vcard">
-    <a class="url fn n" href="http://www.timnovinger.com">  
+    <a class="url fn n" href="http://www.timnovinger.com">
       <span class="given-name">Tim</span>
       <span class="family-name">Novinger</span>
     </a>
     <a class="email" href="mailto:tim.novinger@gmail.com">tim.novinger@gmail.com</a>
     <div class="adr">
-      <span class="locality">Fort Wayne</span>, 
+      <span class="locality">Fort Wayne</span>,
       <span class="region">IN</span>
       <span class="country-name">USA</span>
     </div>
     <div class="tel">+1 (260) 918-4937</div>
     <a class="url" href="aim:goim?screenname=timnovinger">AIM</a>
   </div>
-  
-  <%= javascript_include_tag 'jquery-1.4.min', 'SlideShow' %>
-  
-  <!-- Don't steal my stuff, it's bad karma -->
+
+  <%= javascript_include_tag 'application' %>
+
+  <!-- Stay hungry and stay foolish - Steve Jobs -->
 </body>
 </html>
