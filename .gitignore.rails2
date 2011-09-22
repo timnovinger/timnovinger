@@ -1,7 +1,0 @@
-database.yml
-tmp/
-log/*
-db/*.sqlite3*
-*.tmproj
-*.DS_Store
-
