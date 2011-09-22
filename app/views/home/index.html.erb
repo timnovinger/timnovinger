@@ -1,48 +1,47 @@
 <div id="content">
-  <p class="headline">Welcome. I am a developer, designer, photographer, and dad.<br />
+  <p class="headline">Welcome. I am a developer, amateur photographer, and dad.<br />
   <a href="portfolio" rel="portfolio" title="View my portfolio pieces">This is my portfolio</a> &rarr;</p>
-  
+
   <div id="slideshow" class="imgborder">
     <%= render :partial => 'layouts/slides' %>
   </div>
   <%= image_tag 'large_shadow.png', :alt => '', :id => 'slideshow_shadow' %>
-  
+
   <div id="col_wrapper">
     <div id="about_me">
       <h2>About Me</h2>
       <hr />
-      <p><span class="img_frame frame_small floatright"><%= image_tag 'timnovinger_b&w.jpg', :alt => 'Tim Novinger' %></span>
-        I'm a developer located in Fort Wayne, Indiana with experience in web development and design, and interests in iOS development.</p>
-      
-        <p>Additionally I'm a co-founder of the <a href="http://www.screamingmonkeys.org/" title="Check out the Web Guild I helped create">Screaming Monkeys Web Guild</a>, a local web development professional group, whose goal is to foster business networking, learning and creativity.</p>
-      
+      <p><span class="img_frame frame_small floatright"><%= image_tag 'http://dl.dropbox.com/u/1702874/images/timnovinger-small.jpg', :alt => 'Tim Novinger' %></span>
+        I'm a developer located in Fort Wayne, Indiana focused primarily on web development, although I hack around on iOS development for fun.</p>
+
+      <p>I'm also a co-founder of the <a href="http://www.screamingmonkeys.org/" title="Check out the Web Guild I helped create">Screaming Monkeys Web Guild</a>, a local web development professional group, whose goal is to foster business networking, learning and creativity.</p>
+
       <h3>Languages I use and specialize in</h3>
-      
-       <p>I have experience with the following languages and technologies: HTML, CSS, Javascript (<a href="http://www.jquery.com" title="jQuery JavaScript framework">jQuery</a>), SQL, <a href="http://rubyonrails.org/">Ruby on Rails</a>, and Objective-C / Apple iOS.</p>
-      
-       <p>I love opensource software and contribute to projects when I'm able to, the most notable being the <%= link_to 'Mobile Notifier', 'https://github.com/peterhajas/MobileNotifier' %> project by <%= link_to 'Peter Hajas', 'peterhajas.com' %>, on which I am a part of the core development team.</p>
+      <p>I have experience with the following languages and technologies:<br /><a href="http://www.wordpress.com">Wordpress</a>, PHP/MySQL, <a href="http://rubyonrails.org/">Ruby on Rails</a>, HTML, CSS, Javascript (<a href="http://www.jquery.com" title="jQuery JavaScript framework">jQuery</a>, <a href="http://www.mootools.net">MooTools</a>), and Objective-C / Apple iOS.</p>
+
+      <p>I love opensource software and contribute to projects when I'm able to, the most notable being the <%= link_to 'Mobile Notifier', 'https://github.com/peterhajas/MobileNotifier' %> project by <%= link_to 'Peter Hajas', 'peterhajas.com' %>. I am a part of the core development team, and also manage a separate Cydia repository to host this project.</p>
+
+      <p>To download <%= link_to 'Mobile Notifier', 'https://github.com/peterhajas/MobileNotifier' %>, add as a source:<br /> &mdash; http://cydia.myrepospace.com/timnovinger</p>
 
       <h3>What tools do you use?</h3>
       <p>
-        <%= link_to 'Mac Vim', 'http://macvim.org/' %>,
+        <%= link_to 'Github', 'http://www.github.com/timnovinger' %>,
+        <%= link_to 'MacVim', 'http://macvim.org/' %>,
         <%= link_to 'Xcode', 'http://developer.apple.com/technologies/tools/whats-new.html' %>,
         <%= link_to 'Ingredients', 'http://fileability.net/ingredients/' %>,
         <a href="http://www.sequelpro.com/" title="MySQL database management for Mac OS X 10.5+">Sequel Pro</a>, 
         <a href="http://iconfactory.com/software/xscope" title="Powerful on-screen tools for designers">XScope</a>, and 
         <a href="http://www.adobe.com/products/fireworks/" title="Rapidly prototype and design for the web">Fireworks</a>.
       </p>
-      
-      <h3>You do stuff other than code right?</h3>
-      <p>I'm a dad first and foremost&mdash;much of my time is spent with my daughter. Otherwise I'm a petrol head, and can be found hanging out with local car clubs or autocrossing. I also love <a href="http://www.flickr.com/photos/timnovinger/" title="View my Photostream">photography</a>, my friends, and <a href="http://www.msnbc.msn.com/id/26315908/">The Rachel Maddow Show</a>. If you'd like to know more, follow me on <a href="http://www.twitter.com/timnovinger" title="Follow me on Twitter!">Twitter</a> and say "Hi!".</p>
-      
+
       <h3>Are you available for hire?</h3>
-      <p>I'm sorry but no. I have a fantastic day job at <a href="http://www.squaremouth.com" title="Compare Travel Insurance Online!">SquareMouth, Inc.</a> which keeps me very busy. I simply don't have the time any more, but thanks for the interest!</p>
-      
+      <p>I am available for project work via <%= link_to 'ColorJar', 'http://www.colorjar.com' %>.<br />Contact me today to see how we can help you!</p>
+
       <div class="floatright">
         <h3><a href="http://www.linkedin.com/in/timnovinger/">View my work experience</a> &rarr;</h3>
       </div>
     </div>
-    
+
     <div id="recent_work">
       <h2>Recent Work</h2>
       <hr />
@@ -55,11 +54,6 @@
         <li class="img_frame frame_small">
           <a href="portfolio/rockford_ambulance" title="Rockford Ambulance">
           <%= image_tag 'portfolio/thumbnails/rockford_ambulance_home.jpg', :alt => 'Rockford Ambulance' %>
-          </a>
-        </li>
-        <li class="img_frame frame_small">
-          <a href="portfolio/screaming_monkeys_web_guild" title="The Screaming Monkeys Web Guild">
-            <%= image_tag 'portfolio/thumbnails/smwg.jpg', :alt => 'The Screaming Monkeys Web Guild' %>
           </a>
         </li>
         <li class="img_frame frame_small">

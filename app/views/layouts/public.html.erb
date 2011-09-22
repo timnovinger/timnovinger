@@ -9,7 +9,7 @@
   <meta name="robots" content="all,follow,index" />
   <meta name="author" content="Tim Novinger" />
   <meta name="abstract" content="Tim Novinger" />
-  <meta name="title" content=":: Tim Novinger&mdash;Developer&mdash;Fort Wayne, Indiana ::" />
+  <meta name="title" content="Tim Novinger :: Web Developer :: Fort Wayne, Indiana" />
   <meta name="owner" content="Tim Novinger" />
   <meta name="copyright" content="&#169; <%= Time.now.year %> Tim Novinger - http://www.timnovinger.com" />
   <meta name="keywords" content="<%= @keywords %>" />
@@ -31,6 +31,7 @@
         <li><a href="/" rel="homepage" title="Go back to the beginning">home</a></li>
         <li><a href="/portfolio" rel="portfolio" title="View my portfolio pieces">my portfolio</a></li>
         <li><a href="http://www.github.com/timnovinger" rel="portfolio" title="View my projects on Github">github</a></li>
+        <%# <li><a href="http://stackoverflow.com/users/892666/timnovinger" rel="stack overflow" title="See out how I've helped others on Stack Overflow">stack overflow</a></li>%>
         <li><a href="/#about_me" rel="about" title="Read more about me">about me</a></li>
         <li><a href="#contact_me" title="Want to get in touch?">contact me</a></li>
       </ul>
@@ -41,14 +42,7 @@
     <div id="contact_me">
       <h2>Contact Me</h2>
       <hr />
-      <div id="twitter">
-        <%= image_tag 'tweetie_bird.jpg', :alt => 'Twitter', :id => 'twitter_bird' %>
-        <div id="tweet">
-          <p><%#= message_with_anchors latest_tweet %></p>
-        </div>
-      </div>
-
-      <ul id="info">
+      <ul id="info_left" class="info">
         <li>
           <%= image_tag 'icons/icon_email.gif', :alt => 'Email', :class => 'icon' %>
           <a href="mailto:tim.novinger@gmail.com" title="Send an e-mail">tim.novinger@gmail.com</a>
@@ -57,6 +51,9 @@
           <%= image_tag 'icons/icon_phone.gif', :alt => 'Phone', :class => 'icon' %>
           +1 (260) 918-4937
         </li>
+      </ul>
+
+      <ul id="info_right" class="info">
         <li>
           <%= image_tag 'icons/icon_twitter.gif', :alt => 'Twitter', :class => 'icon' %>
           <a href="http://www.twitter.com/timnovinger" title="Follow Me!">follow me on twitter</a>
