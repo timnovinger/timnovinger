@@ -928,3 +928,10 @@ ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   script/rails:6
 
 Rendered /Users/tnovinger/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/rails-64325a824271/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (109.1ms)
+Compiled jquery-ui.min.js  (47ms)  (pid 54549)
+Compiled jquery.min.js  (4ms)  (pid 54549)
+Compiled application.js  (17ms)  (pid 54549)
+Compiled jquery.js  (14ms)  (pid 54549)
+Compiled jquery_ujs.js  (2ms)  (pid 54549)
+Compiled SlideShow.js  (1ms)  (pid 54549)
+Compiled application.css  (1ms)  (pid 54549)
